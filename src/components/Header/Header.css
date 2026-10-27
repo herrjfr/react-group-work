@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+header{
+    width: 100%;
+    height: 140px;
+    background-color: red;
+    .header-top{
+        width: 100%;
+        height: 45px;
+        background-color: #474747;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        padding: 0 140px;
+        .header-top-text{
+            font-family: "DM Sans", sans-serif;
+            display: flex;
+            gap: 0 30px;
+            font-weight: 300;
+            font-size: 15px;
+            .number{
+                display: flex;
+                align-items: center;
+                gap: 0 10px;
+            }
+            .gmail{
+                display: flex;
+                align-items: center;
+                gap: 0 10px;
+            }
+        }
+        .header-top-icons{
+            display: flex;
+            gap: 0 20px;
+            i{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 13px;
+                background-color: #5C5C5C;
+            }
+        }
+        i{
+            cursor: pointer;
+            transition: transform 0.2s;
+            &:hover{
+                transform: translateY(-10%);
+            }
+            &:active{
+                transform: translateY(0);
+            }
+        }
+    }
+    .header-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 140px;
+        .header-logo{
+            display: flex;
+            align-items: center;
+            gap: 0 15px;
+            i{
+                font-size: 45px;
+                padding-top: 10px;
+                color: #474747;
+            }
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
