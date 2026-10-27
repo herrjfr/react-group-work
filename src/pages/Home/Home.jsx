@@ -12,7 +12,6 @@ import Footer from '../../components/Footer/Footer'
 function Home() {
   return (
     <>
-    <Header/>
     <Vahid1/>
     <Vahid2/>
     <Mehemmed1/>
@@ -20,7 +19,6 @@ function Home() {
     <Nusret1/>
     <Nusret2/>
     <Sebine/>
-    <Footer/>
     </>
   )
 }

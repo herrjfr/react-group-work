@@ -9,12 +9,10 @@ import Footer from '../../components/Footer/Footer'
 function About() {
   return (
     <>
-    <Header/>
     <Elvin1/>
     <Elvin2/>
     <Seccad1/>
     <Seccad2/>
-    <Footer/>
     </>
   )
 }
