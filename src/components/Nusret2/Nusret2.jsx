@@ -2,7 +2,7 @@ import React from 'react'
 
 function Nusret2() {
   return (
-    <div>Nusret2</div>
+    <section>Nusret2</section>
   )
 }
 

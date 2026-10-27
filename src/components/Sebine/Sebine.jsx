@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sebine() {
   return (
-    <div>Sebine</div>
+    <section>Sebine</section>
   )
 }
 

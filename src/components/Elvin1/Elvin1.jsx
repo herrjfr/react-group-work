@@ -2,7 +2,7 @@ import React from 'react'
 
 function Elvin1() {
   return (
-    <div>Elvin1</div>
+    <section>Elvin1</section>
   )
 }
 
