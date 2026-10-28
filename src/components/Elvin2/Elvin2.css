@@ -7,10 +7,9 @@
 .elvin2-sec{
     display: flex;
     flex-direction: column;
-    gap: 90px;
 }
 .sec-bot{
-    padding-left: 60px;
+    padding: 100px 140px;
 }
 
 .sec-top{

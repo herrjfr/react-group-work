@@ -3,55 +3,45 @@
 *{
     font-family: "Poppins", sans-serif;
 }
-
 .elvin1-sec{
-   
     display: flex;
-    gap: 70px;
+    gap: 120px;
     height: 100vh;
-    
-    
+    background-color: #F9F9F7;
 }
-
 .left-side{
     width: 50%;
     position: relative;
     padding-top: 80px;
-    padding-left: 50px;
-
+    padding-left: 140px;
 }
-
 .left-side>img{
     position: absolute;
-
 }
-
 .img-1{
     width: 560px;
-    
+    border-radius: 15px;
 }
-
 .img-3{
-    left: 280px;
-    bottom: 110px;
-    
+    left: 340px;
+    bottom: 90px; 
 }
-
 .right-side{
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
-    justify-content: center;
-    
+    padding-right: 140px;
+    justify-content: center;   
 }
-
 .right-h1{
     font-size: 50px;
+    font-weight: 500;
 }
 .right-h6{
     font-size: 18px;
+    font-weight: 500;
 }
 .right-p{
-    font-size: 18px;
+    font-size: 16px;
 }
