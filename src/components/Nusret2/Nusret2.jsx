@@ -6,19 +6,13 @@ import Seksri from '../../assets/stepnese.png'
 
 function Nusret2() {
   return (
-    <section>
+    <section className='nusret-sec2'>
       <div className='ankeDiv'>
         <h1 className='mainhash'>What Our Customers Say</h1>
         <div className='ucDiv'>
-          <div className='div sol'>
-            <h1 className='bst'>“The best restaurant”</h1>
-            <div>
-              <p>Last night, we dined at place and were</p>
-              <p>simply blown away. From the moment we</p>
-              <p>stepped in, we were enveloped in an</p>
-              <p>inviting atmosphere and greeted with</p>
-              <p>warm smiles.</p>
-            </div>
+          <div className='card'>
+            <h1 className='baslar'>“The best restaurant”</h1>
+            <p className='pler'>Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.</p>
             <div className="xett"></div>
             <div className='sekil'>
               <img src={Sekone} alt="" />
@@ -28,15 +22,9 @@ function Nusret2() {
               </div>
             </div>
           </div>
-          <div className='div orta'>
-            <h1 className='Simpl'>“Simply delicious”</h1>
-            <div>
-              <p>Place exceeded my expectations on all </p>
-              <p>fronts. The ambiance was cozy and </p>
-              <p>relaxed, making it a perfect venue for our </p>
-              <p>anniversary dinner. Each dish was </p>
-              <p>prepared and beautifully presented.</p>
-            </div>
+          <div className='card'>
+            <h1 className='baslar'>“Simply delicious”</h1>
+            <p className='pler'>Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.</p>
             <div className="xett"></div>
             <div className='sekil'>
               <img src={Sektyu} alt="" />
@@ -46,15 +34,9 @@ function Nusret2() {
               </div>
             </div>
           </div>
-          <div className='div sag'>
-            <h1 className='ONE'>“One of a kind restaurant”</h1>
-            <div>
-              <p>The culinary experience at place is first</p>
-              <p>to none. The atmosphere is vibrant, the </p>
-              <p>food - nothing short of extraordinary. The</p>
-              <p>food was the highlight of our evening. </p>
-              <p>Highly recommended.</p>
-            </div>
+          <div className='card'>
+            <h1 className='baslar'>“One of a kind restaurant”</h1>
+            <p className='pler'>The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.</p>
             <div className="xett"></div>
             <div className='sekil'>
               <img src={Seksri} alt="" />

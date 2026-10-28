@@ -7,15 +7,14 @@ import { BookmarkPlus, Clock, ShoppingCart } from 'lucide-react';
 
 function Nusret1() {
   return (
-    <section>
+    <section className='sec-nusret1'>
       <div className='enke-div'>
         <div className='sol-sek'>
-          <img src={Asbaz} alt="" width={400} height={600} />
-          <div className='tyu-sekil'>
-            <img src={Ust} alt="" width={280} height={360} />
-            <img src={Alt} alt="" width={280} height={250} />
+          <img src={Asbaz} className='w-[430px] h-[580px]'/>
+          <div className='tyu-sekil h-[580px]'>
+            <img src={Ust} className='w-[280px] h-[330px]'/>
+            <img src={Alt} className='w-[280px] h-[230px]'/>
           </div>
-
         </div>
 
         <div className='sag-cumle'>
@@ -23,9 +22,9 @@ function Nusret1() {
           <h1>Delivery in City</h1>
           <p>Our visual designer lets you quickly and of drag a down  </p>
           <p>your way to customapps for both keep desktop.</p>
-          <div className='eyni'><button><Clock size={15} /></button> <span> Delivery within 30 minutes </span></div>
-          <div className='eyni'><button><BookmarkPlus size={15} /></button> <span> Best Offer & Prices </span></div>
-          <div className='eyni'><button><ShoppingCart size={15} /></button> <span> Online Services Available </span></div>
+          <div className='eyni'><button className='flex justify-center items-center'><Clock size={15} /></button> <span> Delivery within 30 minutes </span></div>
+          <div className='eyni'><button className='flex justify-center items-center'><BookmarkPlus size={15} /></button> <span> Best Offer & Prices </span></div>
+          <div className='eyni'><button className='flex justify-center items-center'><ShoppingCart size={15} /></button> <span> Online Services Available </span></div>
 
         </div>
       </div>
