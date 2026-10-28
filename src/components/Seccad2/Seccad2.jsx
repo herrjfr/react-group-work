@@ -2,7 +2,7 @@ import React from 'react'
 
 function Seccad2() {
   return (
-    <section>Seccad2</section>
+    <section></section>
   )
 }
 
