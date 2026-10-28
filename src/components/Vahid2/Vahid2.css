@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.vahid2 {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 90px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.vahid2-container {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.vahid2-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  font-weight: 500;
+  color: #2C2F24;
+  margin-bottom: 50px;
+}
+
+.vahid2-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.vahid2-card {
+  flex: 1;
+  min-width: 250px;
+  max-width: 275px;
+  background-color: #ffffff;
+  border: 1px solid #DBDFD0;
+  border-radius: 12px;
+  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.vahid2-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #F0F2EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  color: #2C2F24;
+}
+
+.vahid2-card h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #2C2F24;
+  margin-bottom: 15px;
+}
+
+.vahid2-card p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  color: #414536;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.vahid2-card a {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #AD343E;
+  text-decoration: none;
+  margin-top: auto;
+  transition: 0.2s;
+}
+
+.vahid2-card a:hover {
+  color: #8F1E28;
+}
