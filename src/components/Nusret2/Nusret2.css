@@ -16,7 +16,7 @@
     font-size: 24px;
     font-weight: 700;
     color: #AD343E;
-    padding-top: 40px;
+    padding-top: 15px;
 }
 
 .ankeDiv {
@@ -50,7 +50,7 @@
 
 .card{
     width: 400px;
-    height: 430px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
