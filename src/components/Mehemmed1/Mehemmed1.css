@@ -1,0 +1,105 @@
+.mehemmed1-container {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #2d2d2d;
+  background-color: #ffffff;
+  padding: 60px 40px;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-box-container {
+  position: relative;
+  flex: 1;
+}
+
+.main-food-img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+/* Şəklin üzərinə çıxan tünd qutu */
+.visit-card {
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  width: 300px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.visit-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.visit-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.visit-card li {
+  font-size: 13px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #e0e0e0;
+  line-height: 1.4;
+}
+
+.content-box {
+  flex: 1;
+}
+
+.content-box h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.main-desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.sub-desc {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.more-btn {
+  background: transparent;
+  border: 1px solid #1a1a1a;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.more-btn:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
