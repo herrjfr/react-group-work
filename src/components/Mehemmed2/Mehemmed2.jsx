@@ -2,7 +2,7 @@ import React from 'react'
 
 function Mehemmed2() {
   return (
-    <section></section>
+    <section>Mehemmed2</section>
   )
 }
 

@@ -1,6 +1,7 @@
 .nusret-sec2 {
     width: 100%;
     padding: 0px 140px;
+    background-color: white;
 }
 
 * {
@@ -21,13 +22,14 @@
 
 .ankeDiv {
     width: 100%;
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 100px;
     background-color: #FFFFFF;
+    padding-bottom: 150px;
     .mainhash{
         color: #2C2F24;
         font-size: 50px;
