@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.vahid1 {
+  width: 100%;
+  min-height: 640px;
+  background-image: url('../../assets/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.vahid1-box {
+  max-width: 600px;
+  width: 100%;
+}
+
+.vahid1-box h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  font-weight: 500;
+  color: #2C2F24;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.vahid1-box p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  color: #495460;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.vahid1-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.vahid1-buttons button {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-table {
+  background-color: #AD343E;
+  color: #ffffff;
+  border: 1px solid #AD343E;
+}
+
+.btn-table:hover {
+  background-color: #8F1E28;
+}
+
+.btn-menu {
+  background-color: transparent;
+  color: #182226;
+  border: 1px solid #182226;
+}
+
+.btn-menu:hover {
+  background-color: #182226;
+  color: #ffffff;
+}
