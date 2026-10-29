@@ -12,11 +12,11 @@ function Home() {
     <>
     <Vahid1/>
     <Vahid2/>
-    <Mehemmed1/>
+    <Mehemmed1/> 
     <Mehemmed2/>
     <Nusret1/>
     <Nusret2/>
-    <Sebine/>
+    <Sebine/> 
     </>
   )
 }
