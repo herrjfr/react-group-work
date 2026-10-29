@@ -9,11 +9,11 @@ import foto5 from "./foto5.png"
 function Sebine() {
   return (
     <>
-
+<section className='hero'>
       <div className='our'>
         <img src={our} alt="our" />
         <button className='btn'>Read All Articles</button>
-      </div>
+      </div><br />
 
 
   <section className='cards'>
@@ -53,6 +53,7 @@ function Sebine() {
           <h1 style={{margin:"10px"}}>5 great pizza restaurants you should visit this city</h1>
         </div>
 
+      </section>
       </section>
     </>
 
